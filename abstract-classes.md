@@ -2,8 +2,9 @@
 Looking back at our inheritance topic, we note that the Employee class is being used as the base class for Manager and Programmer. We can continue to extend the Employee class by creating as many sub classes as required for different employees in our application. However, when looking at our class hierarchy, does it make sense to be able to create an object of type Employee, directly? Certainly the base class contains common properties but realistically we would prefer to only create objects of specific types of employees.
 
 In order to enforce this behavior in our code, we should consider making the Employee class an abstract class. Abstract classes are closely related to interfaces, which will be covered in the next topic. Abstract classes cannot be instantiated, which means we would not be able to create a new Employee object in code with this statement:
-
+```
 Employee newEmployee = new Employee();
+```
 When you create an abstract class you may partially implement some of the behavior in the class, or not implement the behavior at all. An abstract class requires the subclass to implement some, or all, of the functionality. If we extend our previous example of the Employee and Manager classes, using abstract classes, we can demonstrate this concept better. Note that the employee class now includes some methods to implement behaviors.
 ```
 abstract class Employee
