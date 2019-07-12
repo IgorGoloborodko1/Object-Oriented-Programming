@@ -10,5 +10,6 @@
 ###### Part 2
 * [Anonymous Classes](anonymous-classes.md)
 * [Introducing Inheritance](introducing-inheritance.md)
-* [Applying Inheritance](applying-inheritance.md) 
+* [Applying Inheritance](applying-inheritance.md)
+* [Abstract Classes](abstract-classes.md)
 ###### Part 3
