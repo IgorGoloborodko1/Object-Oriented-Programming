@@ -13,9 +13,8 @@ You can use an implicit cast to convert to an interface type, because you know t
 IBeverage beverage = coffee1;
 ```
 You must use an explicit cast to convert from an interface type to a derived class type, as the class may include members that are not defined in the interface.
-
-// Casting an Interface Type to a Derived Class Type
 ```
+// Casting an Interface Type to a Derived Class Type
 Coffee coffee3 = beverage as Coffee;
 // OR
 Coffee coffee4 = (Coffee)beverage;
@@ -27,8 +26,9 @@ In many cases, you will want to create classes that implement more than one inte
 * Implement the IComparable interface to enable collection classes to sort instances of your class.
 * Implement your own custom interface to define the functionality of your class.
 To implement multiple interfaces, you add a comma-separated list of the interfaces that you want to implement to your class declaration. Your class must implement every member of every interface you add to your class declaration. The following example shows how to create a class that implements multiple interfaces:
-
+```
 // Declaring a Class that Implements Multiple Interfaces
 public class Coffee: IBeverage, IInventoryItem
 {
 }
+```
