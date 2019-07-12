@@ -11,7 +11,7 @@ public interface IBeverage
 ```
 **Note: Programming convention dictates that all interface names should begin with an "I".**
 
-Similar to a class declaration, an interface declaration can include an access modifier. You can use the following access modifiers in your interface declarations:
+Similar to a class declaration, an interface declaration can include an access modifier. You can use the following access modifiers in your interface declarations.
 
 ### public
 The interface is available to code running in any assembly.
