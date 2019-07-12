@@ -7,12 +7,13 @@ In Visual C#, a class is a programming construct that you can use to define your
 Suppose you create a class named DrinksMachine.
 
 You use the class keyword to declare a class, as shown in the following example:
-
-```//Declaring a Class
+```
+//Declaring a Class
 public class DrinksMachine
 {
     // Methods, fields, properties, and events go here.
-}```
+}
+```
 The class keyword is preceded by an access modifier, such as public in the above example, will be described in the Encapsulation section.
 
 Adding Members to a Class
