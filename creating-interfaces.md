@@ -83,7 +83,7 @@ public class Customer : ILoyaltyCardHolder
 ```
 The details of the implementation do not matter to calling classes. By implementing the ILoyaltyCardHolder interface, the implementing class is indicating to consumers that it will take care of the AddPoints operation. One of the key advantages of interfaces is that they enable you to modularize your code. You can change the way in which your class implements the interface at any point, without having to update any consumer classes that rely on an interface implementation.
 
-Implicit and Explicit Implementation
+## Implicit and Explicit Implementation
 When you create a class that implements an interface, you can choose whether to implement the interface implicitly or explicitly. To implement an interface implicitly, you implement each interface member with a signature that matches the member definition in the interface. To implement an interface explicitly, you fully qualify each member name so that it is clear that the member belongs to a particular interface.
 
 The following example shows an explicit implementation of the IBeverage interface:
