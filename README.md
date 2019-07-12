@@ -1,4 +1,4 @@
-## Object Oriented Programming in C#
+# Object Oriented Programming in C#
 #### Part 1
 * [Creating Classes](creating-classes.md)
 * [Instantiating Classes](instantiating-classes.md)
