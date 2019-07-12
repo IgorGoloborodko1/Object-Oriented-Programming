@@ -1,3 +1,3 @@
 # edx-oop
 
-[a relative link](Anonymous Classes.md)
+[a relative link](anonymous_classes.md)
