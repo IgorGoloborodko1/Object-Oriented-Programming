@@ -16,7 +16,7 @@ public class DrinksMachine
 ```
 The class keyword is preceded by an access modifier, such as public in the above example, will be described in the Encapsulation section.
 
-# Adding Members to a Class
+## Adding Members to a Class
 You would use fields and properties to define the characteristics of a drinks machine, such as the make, model, age, and service interval of the machine. You would create methods to represent the things that a drinks machine can do, such as make an espresso or make a cappuccino. Finally, you would define events to represent actions that might require your attention, such as replacing coffee beans when the machine has run out of coffee beans.
 
 Within your class, you can add methods, fields, properties, and events to define the behaviors and characteristics of your type, as shown in the following example:
