@@ -13,4 +13,5 @@
 * [Applying Inheritance](applying-inheritance.md)
 * [Abstract Classes](abstract-classes.md)
 * [Sealed Classes](sealed-classes.md)
+* [Introducing Interfaces](introducing-interfaces.md)
 #### Part 3
