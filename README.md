@@ -9,4 +9,5 @@
 * [Creating Static Classes and Methods](creating-static-classes-and-methods.md)
 ###### Part 2
 * [Anonymous Classes](anonymous-classes.md)
+* [Introducing Inheritance](introducing-inheritance.md) 
 ###### Part 3
