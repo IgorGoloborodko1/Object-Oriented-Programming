@@ -12,4 +12,5 @@
 * [Introducing Inheritance](introducing-inheritance.md)
 * [Applying Inheritance](applying-inheritance.md)
 * [Abstract Classes](abstract-classes.md)
+* [Sealed Classes](sealed-classes.md)
 ###### Part 3
