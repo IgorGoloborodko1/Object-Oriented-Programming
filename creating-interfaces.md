@@ -13,9 +13,10 @@ public interface IBeverage
 
 Similar to a class declaration, an interface declaration can include an access modifier. You can use the following access modifiers in your interface declarations:
 
-Access modifier	Description
-public	The interface is available to code running in any assembly.
-internal	The interface is available to any code within the same assembly, but not available to code in another assembly. This is the default value if you do not specify an access modifier.
+### public
+The interface is available to code running in any assembly.
+### internal
+The interface is available to any code within the same assembly, but not available to code in another assembly. This is the default value if you do not specify an access modifier.
 ## Adding Interface Members
 An interface defines the signature of members but does not include any implementation details. Interfaces can include methods, properties, events, and indexers:
 
