@@ -15,4 +15,5 @@
 * [Sealed Classes](sealed-classes.md)
 * [Introducing Interfaces](introducing-interfaces.md)
 * [Creating Interfaces](creating-interfaces.md)
+* [Interface Polymorphism](interface-polymorphism.md)
 #### Part 3
