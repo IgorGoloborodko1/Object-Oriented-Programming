@@ -18,7 +18,7 @@ Recall that using the var keyword will result in the compiler creating a variabl
 
 Once instantiated, you can access the fields in the object by using dot notation, as shown in this example:
 
-Console.WriteLine("Name: {0} Age: {1}", anAnonymousObject.Name, anAnonymousObject.Age};
+```Console.WriteLine("Name: {0} Age: {1}", anAnonymousObject.Name, anAnonymousObject.Age};```
 Once created, you have the option to create other instances of the same anonymous class but with different values:
 
 ```var secondAnonymousObject = new { Name = "Hal", Age = 46 };```
